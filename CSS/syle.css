@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    margin: 4rem auto;
+    width: 50%;
+    height: 50%;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: mediumblue;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+img {
+    width: 220px;
+    height: 200px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#day, #time, #track {
+    font-size: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: dodgerblue;
+}
